@@ -1,0 +1,15 @@
+.moviesBlock {
+  width: 330px;
+  height: 300px;
+}
+
+.backDropMovie {
+  width: 330px;
+  height: 265px;
+}
+
+.title {
+  text-align: start;
+  font-size: larger;
+  font-weight: 200;
+}

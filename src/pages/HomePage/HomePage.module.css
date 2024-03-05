@@ -1,0 +1,15 @@
+.homePage {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeTitle {
+  text-align: start;
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
