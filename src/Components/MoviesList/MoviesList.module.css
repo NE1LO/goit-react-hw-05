@@ -3,13 +3,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 50px;
 }
 
 .movieListItem {
-  width: 330px;
-  height: 300px;
+  width: 299px;
+  height: 168px;
   transition: 0.2s;
+  margin-bottom: 30px;
 }
 
 .movieListItem:hover {
