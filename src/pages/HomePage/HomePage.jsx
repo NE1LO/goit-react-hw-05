@@ -19,7 +19,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="css.homePage">
+    <div className={css.homePage}>
       <h1 className={css.homeTitle}>Trending Today 🏆</h1>
       {movies.length !== 0 && <MoviesList movies={movies} />}
     </div>
