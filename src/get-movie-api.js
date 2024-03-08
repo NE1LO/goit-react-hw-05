@@ -19,10 +19,26 @@ const getTrendMovies = async () => {
   }
 };
 
+const getDetailsMovie = async (id) => {
+  try {
+    const response = await apiInstance.get(`movie/${id}?Language=en-US`, {
+      headers: {
+        Authorization:
+          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkOWQ1OTNhZjBkMDYwMGY5ODgzMjNiYTFjODY1OGJmNCIsInN1YiI6IjY1ZTYyYTlhYjdhMTU0MDE4NjdkZmM4NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Yqg0NGsW4G6vxu1qUxwKDxf_ANq8juHarX95DFzKVEs",
+      },
+    });
+    return response;
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 console.log(getTrendMovies());
+console.log(getDetailsMovie(5));
 
 const requests = {
   getTrendMovies,
+  getDetailsMovie,
 };
 
 export default requests;
