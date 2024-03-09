@@ -14,6 +14,9 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
           </Route>
+          <Route path="/movies" element={<Layout />}>
+            <Route index element={<h2>hello react</h2>} />
+          </Route>
         </Routes>
       </Suspense>
     </>

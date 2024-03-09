@@ -6,3 +6,8 @@
   align-items: center;
   gap: 60px;
 }
+
+.link:hover,
+.link:focus {
+  color: rgb(255, 251, 0);
+}
