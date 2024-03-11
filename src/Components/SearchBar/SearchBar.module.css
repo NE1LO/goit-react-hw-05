@@ -1,0 +1,25 @@
+.serchBarBlock {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 30px 30px 0;
+}
+
+.form {
+  display: flex;
+  gap: 30px;
+}
+
+.input {
+  padding: 5px;
+  color: aliceblue;
+}
+
+.submitBtn {
+  text-align: center;
+  color: aliceblue;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}

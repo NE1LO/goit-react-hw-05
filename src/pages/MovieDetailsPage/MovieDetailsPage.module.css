@@ -1,0 +1,54 @@
+.movieDetailsBlock {
+  text-align: start;
+}
+
+.linkBack {
+  margin-bottom: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.detailsBlock {
+  display: flex;
+  gap: 30px;
+}
+
+.detailsInfoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.additionalBlock {
+  margin-top: 60px;
+}
+
+.additionalTitle {
+  text-align: center;
+}
+
+.additionalList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.additionalListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #2f2f2f;
+  transition: 0.2s;
+}
+
+.additionalListItem:hover {
+  background-color: #454545;
+}

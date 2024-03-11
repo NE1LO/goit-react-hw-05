@@ -7,7 +7,12 @@
   gap: 60px;
 }
 
-.link:hover,
-.link:focus {
-  color: rgb(255, 251, 0);
+.link {
+  font-size: 18px;
+  color: rgb(157, 157, 157);
+  text-decoration: none;
+}
+.active {
+  font-size: 24px;
+  color: rgb(255, 238, 0);
 }
