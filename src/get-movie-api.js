@@ -84,10 +84,6 @@ const getCast = async (id) => {
   }
 };
 
-console.log(getMoviesByWord());
-console.log(getTrendMovies());
-console.log(getDetailsMovie(5));
-
 const requests = {
   getCast,
   getMoviesByWord,
