@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Loader from "../../Components/Loader/Loader";
-import MoviesList from "../../Components/MoviesList/MoviesList";
-import SearchBar from "../../Components/SearchBar/SearchBar";
+import Loader from "../../components/Loader/Loader";
+import MoviesList from "../../components/MoviesList/MoviesList";
+import SearchBar from "../../components/SearchBar/SearchBar";
 import requests from "../../get-movie-api";
 import { useLocation, useSearchParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
