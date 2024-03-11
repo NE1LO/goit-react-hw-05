@@ -38,7 +38,7 @@
   gap: 50px;
 }
 
-.additionalListItem {
+.link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +49,6 @@
   transition: 0.2s;
 }
 
-.additionalListItem:hover {
+.link:hover {
   background-color: #454545;
 }

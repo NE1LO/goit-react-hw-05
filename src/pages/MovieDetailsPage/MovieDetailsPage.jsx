@@ -51,11 +51,15 @@ const MovieDetailsPage = () => {
         <h2 className={css.additionalTitle}>Additional Information</h2>
       </div>
       <ul className={css.additionalList}>
-        <li className={css.additionalListItem}>
-          <NavLink to={"cast"}>Cast</NavLink>
+        <li>
+          <NavLink className={css.link} to={"cast"}>
+            Cast
+          </NavLink>
         </li>
-        <li className={css.additionalListItem}>
-          <NavLink to={"reviews"}>Reviews</NavLink>
+        <li>
+          <NavLink className={css.link} to={"reviews"}>
+            Reviews
+          </NavLink>
         </li>
       </ul>
       <Toaster />
