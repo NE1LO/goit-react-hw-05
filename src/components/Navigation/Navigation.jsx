@@ -11,12 +11,12 @@ const Navigation = () => {
       <ul className={css.NavigationList}>
         <li className={css.NavigationListItem}>
           <NavLink className={buildLinkClass} to="/">
-            <h2>Home</h2>
+            <h2 className={css.title}>Home</h2>
           </NavLink>
         </li>
         <li className={css.NavigationListItem}>
           <NavLink className={buildLinkClass} to="/movies">
-            <h2>Movies</h2>
+            <h2 className={css.title}>Movies</h2>
           </NavLink>
         </li>
       </ul>
